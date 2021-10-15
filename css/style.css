@@ -4,11 +4,11 @@ body {
 }
 
 .container {
+  background-color: rgba(0, 0, 0, 0.2);
   max-width: 800px;
   margin: 40px auto;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
   padding: 10px 30px;
+  border-radius: 6px;
 }
 
 h1 {
@@ -16,16 +16,16 @@ h1 {
 }
 
 p {
+  line-height: 1.5;
   text-align: center;
   margin: 40px 0;
-  line-height: 1.5;
 }
 
 img {
-  border-radius: 6px;
-  width: 50vh;
   display: block;
+  max-width: 320px;
   margin: 40px auto;
+  border-radius: 6px;
 }
 
 .navigation-links {
@@ -35,5 +35,17 @@ img {
 }
 
 .navigation-links a {
+  text-decoration: none;
+  color: rgb(63, 38, 1);
   margin: 15px;
+}
+
+.navigation-links a:hover {
+  transform: translate(0, -5px);
+}
+
+@media (max-width: 500px) {
+  img {
+    width: 70vw;
+  }
 }
