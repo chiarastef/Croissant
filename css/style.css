@@ -1,0 +1,39 @@
+body {
+  background-color: #eccd8f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 10px 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 40px 0;
+  line-height: 1.5;
+}
+
+img {
+  border-radius: 6px;
+  width: 50vh;
+  display: block;
+  margin: 40px auto;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navigation-links a {
+  margin: 15px;
+}
